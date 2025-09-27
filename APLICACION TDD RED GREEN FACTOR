@@ -1,0 +1,8 @@
+#include "unity.h"
+#include "tu_programa.h" // archivo con tus funciones
+
+void test_conversion_dolares_a_soles(void) {
+    float saldo = 100.0;
+    float esperado = 378.0;
+    TEST_ASSERT_EQUAL_FLOAT(esperado, saldo * 3.78);
+}
